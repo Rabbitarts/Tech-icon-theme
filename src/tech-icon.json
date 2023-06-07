@@ -1,0 +1,65 @@
+{
+	"name": "Tech Icon Theme",
+	"colors": {
+		"activityBar.background": "#333333",
+		"activityBar.foreground": "#ffffff",
+		"activityBarBadge.background": "#ff0000",
+		"activityBarBadge.foreground": "#ffffff"
+	},
+	"iconDefinitions": {
+		"jsx": {
+			"iconPath": "./icons/jsx.svg"
+		},
+		"typescript": {
+			"iconPath": "./icons/typescript.svg"
+		},
+		"html": {
+			"iconPath": "./icons/html.svg"
+		},
+		"json": {
+			"iconPath": "./icons/json.svg"
+		},
+		"folder": {
+			"iconPath": "./icons/folder.svg"
+		},
+		"folder-src": {
+			"iconPath": "./icons/folder-src.svg"
+		},
+		"vscode": {
+			"iconPath": "./icons/vscode.svg"
+		},
+		"readme": {
+			"iconPath": "./icons/readme.svg"
+		},
+		"css": {
+			"iconPath": "./icons/css.svg"
+		},
+		"scss": {
+			"iconPath": "./icons/scss.svg"
+		},
+		"img": {
+			"iconPath": "./icons/image.svg"
+		},
+		"svg": {
+			"iconPath": "./icons/svg.svg"
+		}
+	},
+	"fileExtensions": {
+		".jsx": "jsx",
+		".tsx": "typescript",
+		".html": "html",
+		".json": "json",
+		".md": "readme",
+		".css": "css",
+		".scss": "scss",
+		".svg": "svg",
+		".png": "img",
+		".jpg": "img",
+		".gif": "img"
+	},
+	"folder": "folder",
+	"folderNames": {
+		"src": "folder-src",
+		".vscode": "vscode"
+	}
+}

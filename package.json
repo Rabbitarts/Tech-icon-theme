@@ -1,0 +1,51 @@
+{
+	"name": "tech-icon",
+	"displayName": "TechIcon",
+	"description": "The best VSCode icons",
+	"version": "0.0.1",
+	"publisher": "vscode-samples",
+	"repository": "https://github.com/your-username/your-repo.git",
+	"engines": {
+		"vscode": "^1.51.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"icons",
+		"theme",
+		"material",
+		"icon-theme",
+		"customization"
+	],
+	"extensionKind": [
+		"ui",
+		"workspace"
+	],
+	"icon": "logo.png",
+	"contributes": {
+		"iconThemes": [
+			{
+				"id": "tech-icons",
+				"label": "Tech",
+				"path": "./src/tech-icon.json"
+			}
+		]
+	},
+	"dependencies": {
+		"global": "^4.4.0",
+		"vsce": "^2.15.0"
+	},
+	"devDependencies": {
+		"typescript": "^4.3.2"
+	},
+	"scripts": {
+		"compile": "tsc -p ./",
+		"package": "vsce package"
+	},
+	"files": [
+		"icons",
+		"dist/tech-icon.json",
+		"src"
+	]
+}
