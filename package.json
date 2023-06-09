@@ -1,51 +1,86 @@
 {
-	"name": "tech-icon",
-	"displayName": "TechIcon",
-	"description": "The best VSCode icons",
-	"version": "0.0.1",
-	"publisher": "vscode-samples",
-	"repository": "https://github.com/your-username/your-repo.git",
+	"name": "tech-icons",
+	"displayName": "Tech Icons",
+	"description": "Tech Icons is an icon extension for VS Code that provides creative and stylish symbols for use in the code editor. With the Tech Icons set, you can enhance the visual experience of your code editing by adding bright and modern icons that represent different technologies, programming languages, and tools. Thanks to these icons, your VS Code extension will get a stylish and professional look, complementing your workspace with technological elements.",
+	"version": "1.0.0",
+	"publisher": "TechArtem",
+	"license": "Apache-2.0",
+	"author": "Artem Chumachenko [@TechArtem]",
+	"icon": "logo.png",
 	"engines": {
 		"vscode": "^1.51.0"
 	},
+	"preview": false,
+	"homepage": "https://github.com/Rabbitarts/Tech-icon-theme",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Rabbitarts/Tech-icon-theme.git"
+	},
+	"galleryBanner": {
+		"color": "#090A0F",
+		"theme": "dark"
+	},
 	"categories": [
-		"Themes"
+		"Themes",
+		"Other"
 	],
 	"keywords": [
-		"icons",
+		"multi-root",
 		"theme",
-		"material",
 		"icon-theme",
-		"customization"
+		"icons",
+		"file-icons",
+		"file-manager",
+		"file-explorer",
+		"file-navigation",
+		"file-organization",
+		"directory-icons",
+		"folder-icons",
+		"file-type-icons",
+		"file-format-icons",
+		"custom-icons",
+		"visual",
+		"stylish",
+		"modern",
+		"vibrant",
+		"colorful",
+		"aesthetic"
 	],
 	"extensionKind": [
 		"ui",
 		"workspace"
 	],
-	"icon": "logo.png",
 	"contributes": {
 		"iconThemes": [
 			{
 				"id": "tech-icons",
-				"label": "Tech",
-				"path": "./src/tech-icon.json"
+				"label": "Tech Icons",
+				"path": "./build/tech-icons.json"
 			}
 		]
 	},
-	"dependencies": {
-		"global": "^4.4.0",
-		"vsce": "^2.15.0"
-	},
-	"devDependencies": {
-		"typescript": "^4.3.2"
-	},
 	"scripts": {
-		"compile": "tsc -p ./",
+		"lint": "tslint --fix -c tslint.json 'src/**/*.ts'",
+		"precommit": "yarn lint",
+		"prebuild": "rmdir /s /q build && tsc src/index.ts && yarn copy:icons",
+		"build": "node src/index.js",
+		"copy:icons": "IF NOT EXIST build\\svg mkdir build\\svg && xcopy /E /I /Y src\\svg build\\svg",
+		"release": "git pull && standard-version --sign --release-as minor && git push --follow-tags",
+		"release:patch": "git pull && standard-version --sign --release-as patch && git push --follow-tags",
+		"release:major": "git pull && standard-version --sign --release-as major && git push --follow-tags",
 		"package": "vsce package"
 	},
-	"files": [
-		"icons",
-		"dist/tech-icon.json",
-		"src"
-	]
+	"devDependencies": {
+		"@types/fs-extra": "8.0.1",
+		"@types/node": "^20.2.5",
+		"tslint": "^6.1.3",
+		"tslint-config-prettier": "^1.18.0",
+		"typescript": "^5.1.3"
+	},
+	"dependencies": {
+		"fs-extra": "^11.1.1",
+		"prettier": "1.19.1",
+		"standard-version": "9.1.1",
+		"vsce": "^2.15.0"
+	}
 }

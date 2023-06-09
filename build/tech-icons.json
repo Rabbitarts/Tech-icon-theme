@@ -1,0 +1,291 @@
+{
+   "iconDefinitions": {
+      "_file_audio": {
+         "iconPath": "./svg/audio.svg"
+      },
+      "_file_css": {
+         "iconPath": "./svg/css.svg"
+      },
+      "_file_file-text": {
+         "iconPath": "./svg/file-text.svg"
+      },
+      "_file_folder": {
+         "iconPath": "./svg/folder.svg"
+      },
+      "_file_folder_assets": {
+         "iconPath": "./svg/folder_assets.svg"
+      },
+      "_file_folder_assets_open": {
+         "iconPath": "./svg/folder_assets_open.svg"
+      },
+      "_file_folder_build": {
+         "iconPath": "./svg/folder_build.svg"
+      },
+      "_file_folder_build_open": {
+         "iconPath": "./svg/folder_build_open.svg"
+      },
+      "_file_folder_js": {
+         "iconPath": "./svg/folder_js.svg"
+      },
+      "_file_folder_js_open": {
+         "iconPath": "./svg/folder_js_open.svg"
+      },
+      "_file_folder_node": {
+         "iconPath": "./svg/folder_node.svg"
+      },
+      "_file_folder_node_open": {
+         "iconPath": "./svg/folder_node_open.svg"
+      },
+      "_file_folder_open": {
+         "iconPath": "./svg/folder_open.svg"
+      },
+      "_file_folder_src": {
+         "iconPath": "./svg/folder_src.svg"
+      },
+      "_file_folder_src_open": {
+         "iconPath": "./svg/folder_src_open.svg"
+      },
+      "_file_folder_vscode": {
+         "iconPath": "./svg/folder_vscode.svg"
+      },
+      "_file_folder_vscode_open": {
+         "iconPath": "./svg/folder_vscode_open.svg"
+      },
+      "_file_html (1)": {
+         "iconPath": "./svg/html (1).svg"
+      },
+      "_file_html": {
+         "iconPath": "./svg/html.svg"
+      },
+      "_file_image": {
+         "iconPath": "./svg/image.svg"
+      },
+      "_file_js": {
+         "iconPath": "./svg/js.svg"
+      },
+      "_file_json": {
+         "iconPath": "./svg/json.svg"
+      },
+      "_file_license": {
+         "iconPath": "./svg/license.svg"
+      },
+      "_file_prettier": {
+         "iconPath": "./svg/prettier.svg"
+      },
+      "_file_python": {
+         "iconPath": "./svg/python.svg"
+      },
+      "_file_react": {
+         "iconPath": "./svg/react.svg"
+      },
+      "_file_readme": {
+         "iconPath": "./svg/readme.svg"
+      },
+      "_file_sass": {
+         "iconPath": "./svg/sass.svg"
+      },
+      "_file_svg": {
+         "iconPath": "./svg/svg.svg"
+      },
+      "_file_tailwind": {
+         "iconPath": "./svg/tailwind.svg"
+      },
+      "_file_typescript": {
+         "iconPath": "./svg/typescript.svg"
+      },
+      "_file_unknown": {
+         "iconPath": "./svg/unknown.svg"
+      },
+      "_file_yarn-lock": {
+         "iconPath": "./svg/yarn-lock.svg"
+      },
+      "_file_yarn": {
+         "iconPath": "./svg/yarn.svg"
+      }
+   },
+   "file": "_file_unknown",
+   "folder": "_file_folder",
+   "folderExpanded": "_file_folder_open",
+   "fileExtensions": {
+      "css": "_file_css",
+      "png": "_file_image",
+      "jpeg": "_file_image",
+      "jpg": "_file_image",
+      "gif": "_file_image",
+      "webp": "_file_image",
+      "apng": "_file_image",
+      "tiff": "_file_image",
+      "tif": "_file_image",
+      "ico": "_file_image",
+      "js": "_file_js",
+      "mjs": "_file_js",
+      "node-version": "_file_node",
+      "nvmrc": "_file_node",
+      "less": "_file_less",
+      "md": "_file_markdown",
+      "mdx": "_file_mdx",
+      "tmTheme": "_file_markup",
+      "tmcolor": "_file_markup",
+      "py": "_file_python",
+      "yarnrc": "_file_yarn",
+      "yarnclean": "_file_yarn",
+      "yarn-integrity": "_file_yarn",
+      "scss": "_file_sass",
+      "sass": "_file_sass",
+      "config": "_file_settings",
+      "conf": "_file_settings",
+      "properties": "_file_settings",
+      "prop": "_file_settings",
+      "settings": "_file_settings",
+      "props": "_file_settings",
+      "toml": "_file_settings",
+      "prefs": "_file_settings",
+      "env": "_file_settings",
+      "env.development": "_file_settings",
+      "env.testing": "_file_settings",
+      "env.staging": "_file_settings",
+      "env.production": "_file_settings",
+      "env.build": "_file_settings",
+      "sql": "_file_sql",
+      "ts": "_file_typescript",
+      "d.ts": "_file_typescript_def",
+      "spec.ts": "_file_typescript_def",
+      "postcss": "_file_postcss",
+      "pcss": "_file_postcss",
+      "postcssrc": "_file_postcss",
+      "postcssrc.js": "_file_postcss",
+      "postcssrc.yml": "_file_postcss",
+      "postcssrc.json": "_file_postcss",
+      "json": "_file_json",
+      "jsonc": "_file_json",
+      "jsonnet": "_file_json",
+      "json5": "_file_json",
+      "jscsrc": "_file_json",
+      "jshintrc": "_file_json",
+      "jsbeautifyrc": "_file_json",
+      "svg": "_file_svg",
+      "eps": "_file_svg",
+      "aac": "_file_audio",
+      "act": "_file_audio",
+      "aiff": "_file_audio",
+      "amr": "_file_audio",
+      "ape": "_file_audio",
+      "au": "_file_audio",
+      "dct": "_file_audio",
+      "dss": "_file_audio",
+      "dvf": "_file_audio",
+      "flac": "_file_audio",
+      "gsm": "_file_audio",
+      "iklax": "_file_audio",
+      "ivs": "_file_audio",
+      "m4a": "_file_audio",
+      "m4b": "_file_audio",
+      "m4p": "_file_audio",
+      "mmf": "_file_audio",
+      "mogg": "_file_audio",
+      "mp3": "_file_audio",
+      "mpc": "_file_audio",
+      "msv": "_file_audio",
+      "oga": "_file_audio",
+      "ogg": "_file_audio",
+      "opus": "_file_audio",
+      "ra": "_file_audio",
+      "raw": "_file_audio",
+      "tta": "_file_audio",
+      "vox": "_file_audio",
+      "wav": "_file_audio",
+      "wma": "_file_audio",
+      "txt": "_file_document",
+      "vscodeignore": "_file_visualstudio",
+      "vsixmanifest": "_file_visualstudio",
+      "suo": "_file_visualstudio",
+      "sln": "_file_visualstudio",
+      "csproj": "_file_visualstudio",
+      "vb": "_file_visualstudio",
+      "tsx": "_file_react",
+      "prettierrc.js": "_file_prettier",
+      "prettierrc.json": "_file_prettier",
+      "prettierrc.yaml": "_file_prettier",
+      "prettierrc.yml": "_file_prettier",
+      "prettierrc": "_file_prettier",
+      "prettierignore": "_file_prettier"
+   },
+   "fileNames": {
+      "license": "_file_license",
+      "LICENSE": "_file_license",
+      "license.txt": "_file_license",
+      "license.md": "_file_license",
+      "package.json": "_file_npm",
+      "package-lock.json": "_file_package-lock",
+      "yarn.lock": "_file_yarn-lock",
+      "yarn-error.log": "_file_yarn",
+      "makefile": "_file_settings",
+      "postcss.config.js": "_file_postcss",
+      "postcss.config.ts": "_file_postcss",
+      "CODEOWNERS": "_file_github",
+      "tsconfig.json": "_file_json",
+      "tslint.json": "_file_json",
+      "composer.lock": "_file_json",
+      "readme.md": "_file_readme",
+      "README.md": "_file_readme",
+      "favicon": "_file_favicon",
+      "prettier.config.js": "_file_prettier",
+      ".firebaserc": "_file_firebase",
+      "favicon.ico": "_file_favicon",
+      "tailwind.config.js": "_file_tailwind"
+   },
+   "folderNames": {
+      "build": "_file_folder_build",
+      "dist": "_file_folder_dist",
+      "out": "_file_folder_dist",
+      "src": "_file_folder_src",
+      "source": "_file_folder_src",
+      "assets": "_file_folder_assets",
+      "node_modules": "_file_folder_node",
+      ".git": "_file_folder_github",
+      ".github": "_file_folder_github",
+      ".vscode": "_file_folder_vscode",
+      "test": "_file_folder_test",
+      "tests": "_file_folder_test",
+      "__test__": "_file_folder_test",
+      "__tests__": "_file_folder_test",
+      "js": "_file_folder_js"
+   },
+   "folderNamesExpanded": {
+      "build": "_file_folder_build_open",
+      "dist": "_file_folder_dist_open",
+      "out": "_file_folder_dist_open",
+      "src": "_file_folder_src_open",
+      "source": "_file_folder_src_open",
+      "assets": "_file_folder_assets_open",
+      "node_modules": "_file_folder_node_open",
+      ".github": "_file_folder_github_open",
+      ".vscode": "_file_folder_vscode_open",
+      "test": "_file_folder_test_open",
+      "tests": "_file_folder_test_open",
+      "__test__": "_file_folder_test_open",
+      "js": "_file_folder_js_open"
+   },
+   "hidesExplorerArrows": true,
+   "languageIds": {
+      "git": "_file_git",
+      "diff": "_file_git",
+      "gitignore": "_file_git",
+      "css": "_file_css",
+      "html": "_file_html",
+      "java": "_file_java",
+      "javascript": "_file_js",
+      "markdown": "_file_markdown",
+      "sass": "_file_sass",
+      "dotenv": "_file_settings",
+      "sql": "_file_sql",
+      "typescript": "_file_typescript",
+      "postcss": "_file_postcss",
+      "json": "_file_json",
+      "jsonc": "_file_json",
+      "json-tmlanguage": "_file_json",
+      "scss": "_file_sass",
+      "typescriptreact": "_file_react",
+      "javascriptreact": "_file_react"
+   }
+}
